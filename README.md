@@ -16,7 +16,7 @@ Currency Converting Web App is a web application designed to help users convert 
 
 - **Frontend:** CSS, React.js (optional for advanced features)
 - **API:** Utilizes a currency exchange API to fetch real-time rates.
-- # Quick note: in the ".env_sample" replace the "YOUR_API_KEY" with your own API key from RapidAPI.
+- Quick note: in the ".env_sample" replace the "YOUR_API_KEY" with your own API key from RapidAPI.
 - **Deployment:** Vercel
 
 ## Getting Started
