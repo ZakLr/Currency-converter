@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(86, 167, 86);
+  padding: 1rem 0;
+  color: #fff;
+}
+
+/* next is dropdown buttons to be edited */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+body{
+  font-size: 30px;
+}
+
+
+/*---------------Dropdown Content (Hidden by Default)----------*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  overflow-y: scroll;
+  flex-direction: column;
+  width: auto; 
+  max-height: 400px;
+  z-index: 20;
+  background-color: inherit;
+}
+.dropdown-item:nth-child(n){
+  background-color: rgb(208, 242, 196);
+}
+.dropdown-item:nth-child(2n){
+  background-color: rgb(161, 207, 172);
+}
+.dropdown-item:nth-child(3n){
+  background-color: rgb(251, 243, 161);
+}
+
+/* Links inside the dropdown */
+.dropdown-item {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+.dropdown-item:hover {
+  background-color: #3e8e41;
+  color: #f1f1f1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-btn:hover .dropdown-content:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropbtn:hover + .dropdown-content {display: inline-flex;}
+.dropdown-content:hover{display: inline-flex;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown .dropbtn:hover {background-color: #3e8e41;}
+
+/*------------------------------------------------------------------------------------------------------------*/
+/* other styles */
+.box{
+
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  gap: 30px;
+
+}
+.box .element{
+  margin-top: 50px;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.deployable{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 10px;
+  border-color: #04AA6D;
+  font-size: 1rem;
+}
+
+
+.cont-footer{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  color: #fff;
+  transform: translateX(-50%);
+  background-color:#3e8e41 ;
+}
